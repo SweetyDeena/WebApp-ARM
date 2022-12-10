@@ -1,6 +1,6 @@
 "Publish Azure Web Apps and App service plan using an ARM Template"
 
-Using these templates, we can deploy Azure Web Apps and App service plan.
+Using these templates, Azure Web Apps and App service plan can be deployed.
 
 Running the deployment:
 
