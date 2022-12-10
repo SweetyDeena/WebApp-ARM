@@ -14,9 +14,16 @@
         "workerSize": {
             "value": "0"
         },
+        "resourceTags": {
+            "value": {
+                "Project": "Webapp with ARM",
+                "ApplicationName": "BroadCom web design"
+            }
+        },
         "repoURL": {
             "value": "https://github.com/SweetyDeena/Broadcom-WebSite"
         },
+        
         "branch": {
             "value": "main"
         }
