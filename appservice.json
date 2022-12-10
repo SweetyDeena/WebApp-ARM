@@ -4,7 +4,6 @@
     "parameters": {
         "siteName": {
             "type": "string",
-           
             "metadata": {
                 "description": "The name of you Web Site."
             }
@@ -38,7 +37,7 @@
         },
         "repoURL": {
             "type": "string",
-            "defaultValue": "https://github.com/SweetyDeena/Broadcom-WebSite",
+            "defaultValue": "https://github.com/SweetyDeena/simple-web-app",
             "metadata": {
                 "description": "The URL for the GitHub repository that contains the project to deploy."
             }
