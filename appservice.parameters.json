@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "siteName": {
-            "value": "BroadWeb001" 
+            "value": "simpleWebA001" 
         },
         "location": {
             "value": "eastus" 
@@ -16,12 +16,12 @@
         },
         "resourceTags": {
             "value": {
-                "Project": "Webapp with ARM",
-                "ApplicationName": "BroadCom web design"
+                "Project": "Webapp with ARM"
+                "service":"Front-end"
             }
         },
         "repoURL": {
-            "value": "https://github.com/SweetyDeena/Broadcom-WebSite"
+            "value": "https://github.com/SweetyDeena/simple-web-app"
         },
         
         "branch": {
