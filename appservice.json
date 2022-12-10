@@ -43,6 +43,9 @@
                 "description": "The URL for the GitHub repository that contains the project to deploy."
             }
         },
+        "resourceTags": {
+            "type": "object"
+        },
         "branch": {
             "type": "string",
             "defaultValue": "main",
@@ -60,6 +63,7 @@
             "apiVersion": "2020-12-01",
             "name": "[variables('hostingPlanName')]",
             "location": "[parameters('location')]",
+            "tags": "[parameters('resourceTags')]",
             "sku": {
                 "name": "[parameters('sku')]",
                 "capacity": "[parameters('workerSize')]"
@@ -73,6 +77,7 @@
             "apiVersion": "2020-12-01",
             "name": "[parameters('siteName')]",
             "location": "[parameters('location')]",
+            "tags": "[parameters('resourceTags')]",
             "dependsOn": [
                 "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]"
             ],
